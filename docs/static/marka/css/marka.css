@@ -382,6 +382,63 @@
   transform: scale(0.8);
 }
 
+/* Grid Three by Three icon */
+.marka.marka-icon-grid-three i {
+  border-radius: 0%;
+  -webkit-transform: scale(0.23) translate(-130%, -130%);
+  -moz-transform: scale(0.23) translate(-130%, -130%);
+  -o-transform: scale(0.23) translate(-130%, -130%);
+  transform: scale(0.23) translate(-130%, -130%);
+}
+.marka.marka-icon-grid-three i:nth-child(1) {
+  -webkit-transform: scale(0.23) translate(0%, -130%);
+  -moz-transform: scale(0.23) translate(0%, -130%);
+  -o-transform: scale(0.23) translate(0%, -130%);
+  transform: scale(0.23) translate(0%, -130%);
+}
+.marka.marka-icon-grid-three i:nth-child(2) {
+  -webkit-transform: scale(0.23) translate(130%, -130%);
+  -moz-transform: scale(0.23) translate(130%, -130%);
+  -o-transform: scale(0.23) translate(130%, -130%);
+  transform: scale(0.23) translate(130%, -130%);
+}
+.marka.marka-icon-grid-three i:nth-child(3) {
+  -webkit-transform: scale(0.23) translate(-130%, 0%);
+  -moz-transform: scale(0.23) translate(-130%, 0%);
+  -o-transform: scale(0.23) translate(-130%, 0%);
+  transform: scale(0.23) translate(-130%, 0%);
+}
+.marka.marka-icon-grid-three i:nth-child(4) {
+  -webkit-transform: scale(0.23) translate(0%, 0%);
+  -moz-transform: scale(0.23) translate(0%, 0%);
+  -o-transform: scale(0.23) translate(0%, 0%);
+  transform: scale(0.23) translate(0%, 0%);
+}
+.marka.marka-icon-grid-three i:nth-child(5) {
+  -webkit-transform: scale(0.23) translate(130%, 0%);
+  -moz-transform: scale(0.23) translate(130%, 0%);
+  -o-transform: scale(0.23) translate(130%, 0%);
+  transform: scale(0.23) translate(130%, 0%);
+}
+.marka.marka-icon-grid-three i:nth-child(6) {
+  -webkit-transform: scale(0.23) translate(-130%, 130%);
+  -moz-transform: scale(0.23) translate(-130%, 130%);
+  -o-transform: scale(0.23) translate(-130%, 130%);
+  transform: scale(0.23) translate(-130%, 130%);
+}
+.marka.marka-icon-grid-three i:nth-child(7) {
+  -webkit-transform: scale(0.23) translate(0%, 130%);
+  -moz-transform: scale(0.23) translate(0%, 130%);
+  -o-transform: scale(0.23) translate(0%, 130%);
+  transform: scale(0.23) translate(0%, 130%);
+}
+.marka.marka-icon-grid-three i:nth-child(8) {
+  -webkit-transform: scale(0.23) translate(130%, 130%);
+  -moz-transform: scale(0.23) translate(130%, 130%);
+  -o-transform: scale(0.23) translate(130%, 130%);
+  transform: scale(0.23) translate(130%, 130%);
+}
+
 /* Grid Two by Two icon */
 .marka.marka-icon-grid-two i {
   border-radius: 0%;

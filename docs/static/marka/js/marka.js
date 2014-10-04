@@ -53,7 +53,8 @@
         'love':     {block: 7},
         'love-o':   {block: 7, invert: [3,4,5,6]},
 
-        'grid-two': {block: 4},
+        'grid-two':     {block: 4},
+        'grid-three':   {block: 9},
 
         'sort':         {block: 6},
         'sort-half':    {block: 3},

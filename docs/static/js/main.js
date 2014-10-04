@@ -18,7 +18,6 @@
 
 		// Shape
 		'circle',
-        'grid-two',
     	'square',
     	'triangle',
 
@@ -69,6 +68,7 @@
         'love-o',
 
         'grid-two',
+        'grid-three',
 
     	// Audio
     	'pause',
