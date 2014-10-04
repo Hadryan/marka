@@ -256,7 +256,6 @@
 		}
 
 		if (el instanceof Array) {
-
 			for (var a = 0; a < el.length; a++) {
 				if (isElement(el[a])) {
 					this.elements.push(el[a]);
@@ -375,5 +374,21 @@
         var marka = new MarkaIcon(el);
         return marka;
     };
+
+    if (window.jQuery) {
+        jQuery.fn.marka = function() {
+
+            var obj = this,
+                el = [];
+
+            for (var a in obj) {
+                if (isElement(obj[a])) {
+                    el.push(obj[a]);
+                }
+            }
+            
+            return window.Marka(el);
+        };
+    }
 
 })(window);
