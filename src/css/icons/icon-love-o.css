@@ -3,7 +3,6 @@
   border-radius: 0;
   -webkit-transform: rotate(0deg) scale(0) skewX(0deg) translate(0, 0);
   -moz-transform: rotate(0deg) scale(0) skewX(0deg) translate(0, 0);
-  -ms-transform: rotate(0deg) scale(0) skewX(0deg) translate(0, 0);
   -o-transform: rotate(0deg) scale(0) skewX(0deg) translate(0, 0);
   transform: rotate(0deg) scale(0) skewX(0deg) translate(0, 0);
 }
@@ -11,7 +10,6 @@
   border-radius: 50%;
   -webkit-transform: scale(0.5) translate(-40%, -25%);
   -moz-transform: scale(0.5) translate(-40%, -25%);
-  -ms-transform: scale(0.5) translate(-40%, -25%);
   -o-transform: scale(0.5) translate(-40%, -25%);
   transform: scale(0.5) translate(-40%, -25%);
 }
@@ -19,7 +17,6 @@
   border-radius: 50%;
   -webkit-transform: scale(0.5) translate(40%, -25%);
   -moz-transform: scale(0.5) translate(40%, -25%);
-  -ms-transform: scale(0.5) translate(40%, -25%);
   -o-transform: scale(0.5) translate(40%, -25%);
   transform: scale(0.5) translate(40%, -25%);
 }
@@ -27,7 +24,6 @@
   border-radius: 0;
   -webkit-transform: rotate(42.5deg) scale(0.5) skewX(-5deg) translate(9%, 9%);
   -moz-transform: rotate(42.5deg) scale(0.5) skewX(-5deg) translate(9%, 9%);
-  -ms-transform: rotate(42.5deg) scale(0.5) skewX(-5deg) translate(9%, 9%);
   -o-transform: rotate(42.5deg) scale(0.5) skewX(-5deg) translate(9%, 9%);
   transform: rotate(42.5deg) scale(0.5) skewX(-5deg) translate(9%, 9%);
 }
@@ -35,7 +31,6 @@
   border-radius: 50%;
   -webkit-transform: scale(0.39) translate(-50%, -30%);
   -moz-transform: scale(0.39) translate(-50%, -30%);
-  -ms-transform: scale(0.39) translate(-50%, -30%);
   -o-transform: scale(0.39) translate(-50%, -30%);
   transform: scale(0.39) translate(-50%, -30%);
 }
@@ -43,7 +38,6 @@
   border-radius: 50%;
   -webkit-transform: scale(0.39) translate(50%, -30%);
   -moz-transform: scale(0.39) translate(50%, -30%);
-  -ms-transform: scale(0.39) translate(50%, -30%);
   -o-transform: scale(0.39) translate(50%, -30%);
   transform: scale(0.39) translate(50%, -30%);
 }
@@ -51,7 +45,6 @@
   border-radius: 0;
   -webkit-transform: rotate(47deg) scale(0.36, 0.45) skewX(0deg) translate(17%, 0%);
   -moz-transform: rotate(47deg) scale(0.36, 0.45) skewX(0deg) translate(17%, 0%);
-  -ms-transform: rotate(47deg) scale(0.36, 0.45) skewX(0deg) translate(17%, 0%);
   -o-transform: rotate(47deg) scale(0.36, 0.45) skewX(0deg) translate(17%, 0%);
   transform: rotate(47deg) scale(0.36, 0.45) skewX(0deg) translate(17%, 0%);
 }
@@ -59,7 +52,6 @@
   border-radius: 0;
   -webkit-transform: rotate(-47deg) scale(0.36, 0.45) skewX(0deg) translate(-17%, 0%);
   -moz-transform: rotate(-47deg) scale(0.36, 0.45) skewX(0deg) translate(-17%, 0%);
-  -ms-transform: rotate(-47deg) scale(0.36, 0.45) skewX(0deg) translate(-17%, 0%);
   -o-transform: rotate(-47deg) scale(0.36, 0.45) skewX(0deg) translate(-17%, 0%);
   transform: rotate(-47deg) scale(0.36, 0.45) skewX(0deg) translate(-17%, 0%);
 }
