@@ -40,7 +40,8 @@
         'times':    {block: 2},
         'check':    {block: 2},
 
-        'love':     {block: 3},
+        'love':     {block: 7},
+        'love-o':   {block: 7, invert: [3,4,5,6]},
 
         'sort':         {block: 6},
         'sort-half':    {block: 3},
