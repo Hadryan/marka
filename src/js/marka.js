@@ -234,7 +234,7 @@
         el.setAttribute('data-bg', backgroundColor);
     }
 
-	function Marka(el) {
+	function MarkaIcon(el) {
 		
 		this.elements = [];
 
@@ -273,7 +273,7 @@
 
 	}
 
-	Marka.prototype.set = function(icon) {
+	MarkaIcon.prototype.set = function(icon) {
 
 		var el = this;
 
@@ -331,7 +331,7 @@
 		return this;
 	};
 
-	Marka.prototype.color = function(color) {
+	MarkaIcon.prototype.color = function(color) {
 
 		applyFunc(this.elements, function(i) {
             setBackground(i);
@@ -341,7 +341,7 @@
 		return this;
 	};
 
-	Marka.prototype.size = function(size) {
+	MarkaIcon.prototype.size = function(size) {
 
 		this.sizeValue = size;
 
@@ -352,7 +352,7 @@
 		return this;
 	};
 
-	Marka.prototype.rotate = function(direction) {
+	MarkaIcon.prototype.rotate = function(direction) {
 
 		applyFunc(this.elements, function(i) {
 			i.className = i.className.replace('  ', ' ').replace(/marka-rotate-[\w]+/, '');
@@ -362,6 +362,9 @@
 		return this;
 	};
 
-	window.Marka = Marka;
+	window.Marka = function(el) {
+        var marka = new MarkaIcon(el);
+        return marka;
+    };
 
 })(window);

@@ -85,15 +85,20 @@
 		// Set primary icon for landing page
 		markaValue.color = '#FF6600';
 
-		marka = new Marka('#icon');
-		marka.set(markaValue.set).color(markaValue.color);
+		marka = Marka('#icon')
+                .set(markaValue.set)
+                .color(markaValue.color);
+                
 		generateCode();
 
 		// Set navigation icon
-		var prev = new Marka('#prevIcon');
-		prev.set('triangle').rotate('left');
-		var next = new Marka('#nextIcon');
-		next.set('triangle').rotate('right');
+		Marka('#prevIcon')
+            .set('triangle')
+            .rotate('left');
+
+		Marka('#nextIcon')
+            .set('triangle')
+            .rotate('right');
 	}
 
 	function generateCode() {
@@ -150,8 +155,7 @@
 	function initIconList() {
 
 		$('.iconList .icons').each(function(i, el) {
-			var m = new Marka(el);
-			m.set($(el).data('type'));
+			Marka(el).set($(el).data('type'));
 		});
 	}
 
@@ -165,9 +169,7 @@
 		}
 
 		var direction = markaRotate[newPos];
-		console.log(direction);
-		var m = new Marka(this);
-		m.rotate(direction);
+		Marka(this).rotate(direction);
 		$(this).data('rotate', direction);
 	}
 
