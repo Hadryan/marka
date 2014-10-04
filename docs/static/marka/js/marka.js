@@ -376,7 +376,7 @@
     };
 
     if (window.jQuery) {
-        jQuery.fn.marka = function() {
+        jQuery.fn.marka = function(options) {
 
             var obj = this,
                 el = [];
@@ -386,8 +386,26 @@
                     el.push(obj[a]);
                 }
             }
-            
-            return window.Marka(el);
+            console.log(options);
+            var marka = window.Marka(el);
+
+            if ('set' in options) {
+                marka.set(options.set);
+            }
+
+            if ('size' in options) {
+                marka.size(options.size);
+            }
+
+            if ('color' in options) {
+                marka.color(options.color);
+            }
+
+            if ('rotate' in options) {
+                marka.rotate(options.rotate);
+            }
+
+            return marka;
         };
     }
 
