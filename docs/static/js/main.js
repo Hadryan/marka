@@ -53,14 +53,18 @@
     	// App
     	'sort',
     	'sort-half',
+
     	'signal-three-one',
     	'signal-three-two',
     	'signal-three',
+
     	'signal-five-one',
     	'signal-five-two',
     	'signal-five-three',
     	'signal-five-four',
     	'signal-five',
+
+        'love',
 
     	// Audio
     	'pause',

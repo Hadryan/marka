@@ -1,0 +1,17 @@
+@import "../mixin.less";
+
+/* Love icon */
+.marka.marka-icon-love i {
+    border-radius:0;
+    .transform(rotate(42.5deg) scale(0.5) skewX(-5deg) translate(9%, 9%));
+
+    &:nth-child(1) {
+        border-radius:50%;
+        .transform(rotate(0deg) scale(0.5) translate(-40%, -25%));
+    }
+
+    &:nth-child(2) {
+        border-radius:50%;
+        .transform(rotate(0deg) scale(0.5) translate(40%, -25%));
+    }
+}

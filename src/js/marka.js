@@ -40,12 +40,15 @@
         'times':    {block: 2},
         'check':    {block: 2},
 
+        'love':     {block: 3},
+
         'sort':         {block: 6},
         'sort-half':    {block: 3},
 
         'signal-three-one':     {block: 3},
         'signal-three-two':     {block: 3},
         'signal-three':         {block: 3},
+
         'signal-five-one':      {block: 5},
         'signal-five-two':      {block: 5},
         'signal-five-three':    {block: 5},
