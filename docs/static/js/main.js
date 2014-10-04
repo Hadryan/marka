@@ -18,9 +18,9 @@
 
 		// Shape
 		'circle',
+        'grid-two',
     	'square',
     	'triangle',
-        'search',
 
     	// Sign & Form
     	'minus',
@@ -68,8 +68,11 @@
         'love',
         'love-o',
 
+        'grid-two',
+
     	// Audio
     	'pause',
+        'search',
 
     	// Navigation
     	'bars',
