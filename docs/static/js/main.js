@@ -17,12 +17,10 @@
 	var markaSet = [
 
 		// Shape
-        'love',
-        'love-o',
-        
 		'circle',
     	'square',
     	'triangle',
+        'search',
 
     	// Sign & Form
     	'minus',
@@ -67,6 +65,8 @@
     	'signal-five-four',
     	'signal-five',
 
+        'love',
+        'love-o',
 
     	// Audio
     	'pause',

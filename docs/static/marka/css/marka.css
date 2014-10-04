@@ -527,6 +527,19 @@
   transform: rotate(90deg) scale(0.8, 0.2);
 }
 
+/* Search icon */
+.marka.marka-icon-search i {
+  border-radius: 50%;
+  transform: scale(0.7) translate(-12%, -12%);
+}
+.marka.marka-icon-search i:nth-child(1) {
+  border-radius: 0%;
+  transform: rotate(45deg) scale(0.5, 0.13) translate(50%, 20%);
+}
+.marka.marka-icon-search i:last-child {
+  transform: scale(0.5) translate(-17%, -17%);
+}
+
 /* Signal icon (5 part) */
 .marka.marka-icon-signal-five-one i,
 .marka.marka-icon-signal-five-two i,

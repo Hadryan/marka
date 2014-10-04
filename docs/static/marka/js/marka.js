@@ -40,14 +40,15 @@
         'square-o-times':  {block: 4, invert: [1]},
         'square-o-check':  {block: 4, invert: [1]},
 
-        'triangle': {block: 3},
-        'pause':    {block: 2},
-
         'asterisk': {block: 3},
         'minus':    {block: 1},
         'plus':     {block: 2},
         'times':    {block: 2},
         'check':    {block: 2},
+
+        'triangle': {block: 3},
+        'pause':    {block: 2},
+        'search':   {block: 3, invert: 'last'}, 
 
         'love':     {block: 7},
         'love-o':   {block: 7, invert: [3,4,5,6]},
