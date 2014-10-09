@@ -285,7 +285,7 @@
             var obj = this,
                 el = [];
 
-            for (var a in obj) {
+            for (var a = 0; a < obj.length; a++) {
                 if (isElement(obj[a])) {
                     el.push(obj[a]);
                 }
